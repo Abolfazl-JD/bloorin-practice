@@ -44,9 +44,6 @@ while (true) {
         boxes[queen].innerHTML = '<img width="55px" src="images/queen.png">'
         boxes[king].innerHTML = '<img width="55px" src="images/crown.svg">'
         break
-    } else {
-        queen = rnd(0, 64)
-        king = rnd(0, 64)
     }
 }
 
