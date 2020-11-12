@@ -39,8 +39,6 @@ while (true) {
     king = rnd(0, 64)
 
     if (queen !== king) {
-
-        //add king and queen to chessboard
         boxes[queen].innerHTML = '<img width="55px" src="images/queen.png">'
         boxes[king].innerHTML = '<img width="55px" src="images/crown.svg">'
         break
