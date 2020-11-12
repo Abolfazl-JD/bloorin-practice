@@ -25,7 +25,10 @@ addSquares_chessboard()
 
 
 function addToSum(firstColor, secondColor) {
-    sum.push(`<div class="${firstColor} boxes"></div><div class="${secondColor} boxes"></div><div class="${firstColor} boxes"></div><div class="${secondColor} boxes"></div><div class="${firstColor} boxes"></div><div class="${secondColor} boxes"></div><div class="${firstColor} boxes"></div><div class="${secondColor} boxes"></div>`)
+    for (let i = 0; i < 4; i++) {
+        sum.push(`<div class="${firstColor} boxes"></div><div class="${secondColor} boxes"></div>`)
+    }
+
 }
 
 
